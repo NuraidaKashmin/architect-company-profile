@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans-font {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  *{
+    margin: 0px;
+    padding: 0px;
+  }
+  header{
+    /* max-width: 1440px;
+    margin: 0 auto; */
+    background-color: rgba(255, 144, 14, 0.1);
+  }
+
+  nav{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+  }
+  nav>ul>li{
+    list-style: none;
+  }
+  nav>ul>li>a{
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: #424242;
+    font-weight: 500;
+  }
+  nav>ul{
+    display: flex;
+    gap: 40px;
+    /* padding-right: 150px; */
+  }
+.brand{
+    font-size: 2.3rem;
+    font-weight: bold;
+    color: #131313;
+    /* padding-left: 150px; */
+}
+.banner{
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 0px;
+}
+.banner-content h1{
+    font-size: 4rem;
+    color: #131313;
+    font-weight: bold;
+    margin-top: 102px;
+    margin-bottom: 30px;
+}
+.banner-content p{
+    font-size: 1rem;
+    color: #424242;
+    margin-bottom: 30px;
+}
+.banner img{
+    width: 100%;
+    margin-bottom: 45px;
+}
+.btn-primary{
+    background-color: #FF900E;
+    font-size: 1rem;
+    font-weight: 400px;
+    color: white;
+    padding: 20px 25px;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+.our-features{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin: 0 auto;
+    max-width: 1140px;
+    margin-top: 85px;
+    padding: 60px;
+    margin-bottom: 130px;
+}
+.our-features-content{
+    padding-right: 10px;
+}
+.our-features-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.quick-list{
+    font-size: 2.5rem;
+    color: #424242;
+    font-weight: 500px;
+}
+.of-our{
+    font-size: 2.5rem;
+    color: #131313;
+    font-weight: bold;
+}
+.features{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #FF900E;
+}
+.content-description{
+    font-size: 1rem;
+    color: #727272;
+    margin-top: 32px;
+    margin-bottom: 40px;
+}
+
+
+
+@media screen and (max-width: 576px) {
+    nav{
+        flex-direction: column;
+    }
+    .brand{
+        margin-bottom: 40px;
+    }
+    .banner-content h1{
+        margin-top: 60px;
+    }
+    .our-features{
+        flex-direction: column;
+    }
+    .our-features-img{
+        grid-template-columns: 1fr;
+    }
+    
+}
+
